@@ -1,0 +1,2 @@
+# Segentation
+segentation code 
