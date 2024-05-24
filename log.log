@@ -1,0 +1,49 @@
+{'batch_size': 4, 'lr': 0.0001, 'momentum': 0.8797940963872144, 'aug_scale': 0.025, 'aug_angle': 20, 'image_size': 512}
+cuda
+reading train images...
+preprocessing train volumes...
+cropping train volumes...
+padding train volumes...
+resizing train volumes...
+normalizing train volumes...
+done creating train dataset
+reading validation images...
+preprocessing validation volumes...
+cropping validation volumes...
+padding validation volumes...
+resizing validation volumes...
+normalizing validation volumes...
+done creating validation dataset
+epoch 1 | loss: 0.7852650910830327
+epoch 1 | val_loss: 0.879742004785193
+epoch 1 | val_dsc: 0.4833018279740049
+epoch 2 | loss: 0.5413516549040659
+epoch 2 | val_loss: 0.7741027179970799
+epoch 2 | val_dsc: 0.5606306200035469
+epoch 3 | loss: 0.29679257206493714
+epoch 3 | val_loss: 0.6792680879673326
+epoch 3 | val_dsc: 0.713137809260961
+epoch 4 | loss: 0.1995163515603228
+epoch 4 | val_loss: 0.6447874918041459
+epoch 4 | val_dsc: 0.66459239371684
+epoch 5 | loss: 0.15409498556340626
+epoch 5 | val_loss: 0.6205372673919402
+epoch 5 | val_dsc: 0.724264570255606
+epoch 6 | loss: 0.13529085148152686
+epoch 6 | val_loss: 0.6128917903785246
+epoch 6 | val_dsc: 0.749262288283261
+epoch 7 | loss: 0.12153870660624058
+epoch 7 | val_loss: 0.6066723473100777
+epoch 7 | val_dsc: 0.6836486304115349
+epoch 8 | loss: 0.12004287065647774
+epoch 8 | val_loss: 0.6022139062364418
+epoch 8 | val_dsc: 0.7845433028893184
+epoch 9 | loss: 0.1085447658308976
+epoch 9 | val_loss: 0.6046900576855763
+epoch 9 | val_dsc: 0.7781685605768892
+epoch 10 | loss: 0.10399791262418533
+epoch 10 | val_loss: 0.5976474342575993
+epoch 10 | val_dsc: 0.7843566696286564
+epoch 11 | loss: 0.09895226538038368
+epoch 11 | val_loss: 0.6029668191829359
+epoch 11 | val_dsc: 0.7504089646024552

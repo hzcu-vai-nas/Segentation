@@ -1,0 +1,15 @@
+train.py用来完成模型训练
+
+inference.ipynb用来对训练后的模型进行推理
+
+unet.py定义了U-Net网络结构，参考资料[5]
+
+loss.py定义了损失函数(Dice Loss)，参考资料[6]
+
+dataset.py用来定义和读取数据集
+
+transform.py用来预处理数据
+
+utils.py定义了若干辅助函数
+
+logger.py用来记录训练过程(使用TensorBoard[7]功能)，包括损失函数曲线等

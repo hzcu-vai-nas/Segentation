@@ -1,0 +1,25 @@
+experimentName: segentation
+
+trialGpuNumber: 1
+trialConcurrency: 1
+
+maxExperimentDuration: 24h
+maxTrialNumber: 10
+
+experimentWorkingDirectory: /home/jovyan/notebook/test_code/segentation/experiments
+
+searchSpaceFile: search_space.json
+
+trialCommand: python3 segentation.py # NOTE: change "python3" to "python" if you are using Windows
+
+tuner:
+  name: TPE
+  classArgs:
+    optimize_mode: maximize
+   
+trainingService:
+  platform: local
+  useActiveGpu: true
+  maxTrialNumberPerGpu: 3
+
+

@@ -1,0 +1,8 @@
+{
+    "batch_size": {"_type":"choice", "_value": [2,4,6,8,12]},
+    "lr":{"_type":"choice","_value":[0.0001, 0.001, 0.01, 0.1]},
+    "momentum":{"_type":"uniform","_value":[0, 1]},
+    "aug_scale":{"_type":"choice","_value":[0.025,0.05,0.75]},
+    "aug_angle":{"_type":"choice","_value":[10,15,20]},
+    "image_size":{"_type":"choice","_value":[224,256,288,512]}
+}
